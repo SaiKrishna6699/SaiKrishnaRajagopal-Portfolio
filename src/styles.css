@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+}

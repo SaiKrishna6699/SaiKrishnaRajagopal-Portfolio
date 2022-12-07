@@ -1,0 +1,120 @@
+.main {
+    top: 0%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sec1 {
+    margin: 40px;
+    padding: 30px;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.heading-1 {
+    font-size: 5.2rem;
+    right: 0%;
+    width: 100%;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: 400;
+    color: rgb(32, 32, 32);
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 40px;
+}
+
+.heading-2 {
+    right: 0%;
+    width: 100%;
+    font-size: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    z-index: 2;
+    top: 13%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.heading-span {
+    color: rgb(128, 0, 128);
+}
+
+.per-heading {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.row1 {
+
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    margin: 0 -5%;
+}
+
+
+.btnn {
+    line-height: 4;
+    border: rgb(128, 0, 128) solid 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btnn:hover {
+    background-color: rgb(128, 0, 128);
+    font-weight: 800;
+    animation-delay: 20000ms;
+    color: rgb(17, 17, 17)
+}
+
+.columns {
+    display: inline-block;
+    margin: 30px;
+    padding: 25px;
+}
+
+.details {
+    color: rgb(120, 120, 120);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.1rem;
+
+}
+
+.sub-heading {
+    font-weight: bold;
+    color: white;
+}
+
+.row2 {
+    bottom: 10%;
+    position: absolute;
+    left: 41%;
+}
+
+.icon-img {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 5px;
+}

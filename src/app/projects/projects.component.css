@@ -1,0 +1,91 @@
+.main {
+    top: 0%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sec1 {
+    margin: 40px;
+    padding: 30px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.heading-1 {
+    font-size: 5.2rem;
+    right: 0%;
+    width: 100%;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: 400;
+    color: rgb(32, 32, 32);
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 40px;
+}
+
+.heading-2 {
+    right: 0%;
+    width: 100%;
+    font-size: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    z-index: 2;
+    top: 13%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.heading-span {
+    color: rgb(128, 0, 128);
+}
+
+.parent-wrapper {
+    overflow: hidden;
+    height: 75vh;
+    width: 85%;
+    margin: auto 7.5%;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2% -2%;
+    margin: 10px 0;
+}
+
+.grids {
+    width: 40vh;
+    display: inline-block;
+    margin: 2% 2%;
+    flex: 1 0 20%;
+}
+
+.box{
+    padding-bottom: 0%;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box img{
+    border: 1px solid #000;
+    border-radius: 8%;
+
+}

@@ -1,0 +1,230 @@
+.main {
+    top: 0%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sec1 {
+    margin: 40px;
+    padding: 30px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.heading-1 {
+    font-size: 5.2rem;
+    right: 0%;
+    width: 100%;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: 400;
+    color: rgb(32, 32, 32);
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 40px;
+}
+
+.heading-2 {
+    right: 0%;
+    width: 100%;
+    font-size: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    z-index: 2;
+    top: 13%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.heading-span {
+    color: rgb(128, 0, 128);
+}
+
+.form {
+    height: 95vh;
+    width: 90vh;
+    margin: 0 2.5%;
+}
+
+.contact{
+    display: inline-block;
+}
+
+.left {
+    width: 60%;
+    height: 70vh;
+    padding: 2px 5px;
+    font-size: 14px;
+}
+
+.form h2 {
+    color: rgb(128, 0, 128);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.left h4 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+
+.icon1 {
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 45px;
+    padding-top: 0;
+}
+
+.sub-content {
+    padding: 0%;
+}
+
+.aa {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.blocks {
+    margin-top: 5px;
+    padding: 0%;
+}
+
+.sec1 * {
+    overflow: hidden;
+}
+
+.icon1:nth-child(1),
+.icon1:nth-child(1) {
+    margin-bottom: 35px;
+}
+
+.icon1:nth-child(0) {
+    margin-bottom: 45px;
+}
+
+.icons {
+    margin: 10px;
+    width: 50vw;
+}
+
+.icon2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.icon2:hover{
+    color: rgb(128, 0, 128);
+}
+
+.icons{
+    margin-left: -2px;
+}
+
+.right{
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    left: 35vw;
+    overflow: hidden;
+}
+
+.right *{
+    overflow: hidden;
+}
+
+.form-sec1{
+    width: 100%;
+    padding: 15px;
+}
+
+.form-sec1 input{
+    position: relative;
+    background-color: rgb(77, 77, 77);
+    margin: 0% 10px;
+    width: 40%;
+    height: 8vh;
+    border-radius: 30px;
+    border: 1px none;
+    text-align: center;
+}
+
+.form-sec2{
+    width: 100%;
+    padding: 15px;
+}
+
+.form-sec2 input{
+    position: relative;
+    background-color: rgb(77, 77, 77);
+    margin: 0% 10px;
+    width: 82%;
+    height: 8vh;
+    border-radius: 30px;
+    border: 1px none;
+    text-align: center;
+}
+
+.form-sec3{
+    width: 100%;
+    padding: 15px;
+}
+
+.form-sec3 textarea{
+    position: relative;
+    background-color: rgb(77, 77, 77);
+    margin: 0% 10px;
+    width: 82%;
+    height: 8vh;
+    padding: 10% 0;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px none;
+    text-align: center;
+}
+
+.form-sec4{
+    width: 100%;
+    padding: 15px;
+}
+
+.form-sec4 button{
+    position: relative;
+    background-color: rgb(77, 77, 77);
+    margin: 0% 10px;
+    width: 40%;
+    height: 8vh;
+    border-radius: 30px;
+    border: 1px none;
+    text-align: center;
+}
+
+.btn1 {
+    line-height: 0;
+    border-radius: 20px;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form-sec4 button:hover {
+    background-color: rgb(128, 0, 128);
+    font-weight: 800;
+    animation-delay: 20000ms;
+    color: rgb(17, 17, 17)
+}

@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.per-heading {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.sec2 {
+    width: 98%;
+    height: 100vh;
+    top: 35%;
+    align-content: center;
+    margin: auto 1%;
+    overflow: hidden;
+}
+
+.sec2-heading {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.parent-wrapper {
+    overflow: hidden;
+    height: 75vh;
+    width: 85%;
+    margin: auto 7.5%;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2% -2%;
+}
+
+
+.grids {
+    width: 40vh;
+    display: inline-block;
+    margin: 2% 2%;
+    flex: 1 0 20%;
+}
+
+.box{
+    padding-bottom: 0%;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box .circle{
+    justify-content: center;
+    align-content: center;
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.box .circle svg{
+    position: relative;
+    width: 30vh;
+    margin: 0 3.5%;
+    margin-bottom: -20%;
+    overflow: hidden;
+    padding: 3% 18%;
+}
+
+.box .circle svg circle{
+    position: absolute;
+    fill: none;
+    stroke-width: 4;
+    stroke: #000;
+    transform: translate(5px,6px);
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: anim 2s linear forwards;
+}
+
+.box .circle .number{
+    position: absolute;
+    overflow: hidden;
+    top: 2%;
+    left: -2%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255,255,255);
+}
+ 
+.box .circle .number h4{
+    font-size: 28px;
+    align-items: center;
+    margin: 50%, 50%;
+    position: relative;
+    overflow: hidden;
+    top: 20%;
+    left: 3%;
+}
+
+.box .circle .number h4 span{
+    font-size: 16px;
+}
+
+.box .circle .caption{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600 bold;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.one .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.one .circle svg circle:nth-child(2){
+    stroke-dashoffset: 16 ;
+    stroke: rgb(128,0,128);
+}
+
+.two .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.two .circle svg circle:nth-child(2){
+    stroke-dashoffset: 25.6 ;
+    stroke: rgb(128,0,128);
+}
+
+.three .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.three .circle svg circle:nth-child(2){
+    stroke-dashoffset: 54.4 ;
+    stroke: rgb(128,0,128);
+}
+
+.four .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.four .circle svg circle:nth-child(2){
+    stroke-dashoffset: 80 ;
+    stroke: rgb(128,0,128);
+}
+
+.five .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.five .circle svg circle:nth-child(2){
+    stroke-dashoffset: 32 ;
+    stroke: rgb(128,0,128);
+}
+
+.six .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.six .circle svg circle:nth-child(2){
+    stroke-dashoffset: 92 ;
+    stroke: rgb(128,0,128);
+}
+
+.seven .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.seven .circle svg circle:nth-child(2){
+    stroke-dashoffset: 16 ;
+    stroke: rgb(128,0,128);
+}
+
+.eigth .circle svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke-opacity: 30%;
+    stroke: #f3f3f3
+}
+
+.eigth .circle svg circle:nth-child(2){
+    stroke-dashoffset: 92;
+    stroke: rgb(128,0,128);
+}
